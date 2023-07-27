@@ -1,0 +1,32 @@
+.ctn-productCard {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 400px;
+  height: 500px;
+  border: 2px solid #000;
+  margin: 20px 0;
+}
+.ctn-productCard img {
+  width: 400px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.ctn-productCard .ctn-info h2 {
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.ctn-productCard .ctn-info .btn-more {
+  border-radius: 25px;
+  background-color: #000;
+  color: #fff;
+  width: 180px;
+  height: 50px;
+  font-size: 18px;
+}
+.ctn-productCard .ctn-info .btn-more:hover {
+  opacity: 0.8;
+}/*# sourceMappingURL=productCard.css.map */

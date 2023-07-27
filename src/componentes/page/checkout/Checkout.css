@@ -1,0 +1,9 @@
+.btn-enviar {
+  border: 1px solid #000;
+  width: 360px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+.btn-enviar:hover {
+  background-color: rgba(196, 196, 196, 0.6);
+}/*# sourceMappingURL=Checkout.css.map */

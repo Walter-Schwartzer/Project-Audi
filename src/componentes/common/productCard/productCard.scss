@@ -1,0 +1,35 @@
+
+
+.ctn-productCard{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    border: 2px solid #000;
+    margin: 20px 0;
+    img{
+        width: 400px;
+        height: 250px;
+        object-fit: cover;
+    }
+    .ctn-info{
+        h2{
+            font-size: 1.7rem;
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+        .btn-more{
+            border-radius: 25px;
+            background-color: #000;
+            color: #fff;
+            width: 180px;
+            height: 50px;
+            font-size: 18px;
+            &:hover{
+                opacity: .8;
+            }
+        }
+    }
+}

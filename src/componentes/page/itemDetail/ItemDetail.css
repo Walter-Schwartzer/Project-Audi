@@ -1,0 +1,26 @@
+.ctn-item-detail {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  padding: 0 50px;
+  margin: 0 50px;
+}
+.ctn-item-detail img {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  width: 500px;
+  border-radius: 20px;
+  border: 1px solid #000;
+}
+.ctn-item-detail .ctn-i-product {
+  position: absolute;
+  top: 200px;
+  right: 700px;
+  cursor: default;
+}
+.ctn-item-detail .ctn-i-product h2 {
+  font-size: 2.3rem;
+}
+.ctn-item-detail .ctn-i-product h4 {
+  font-size: 2rem;
+}/*# sourceMappingURL=ItemDetail.css.map */
