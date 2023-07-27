@@ -4,7 +4,7 @@ import Footer from "./footer/Footer"
 
 
 
-const Layout = () => {
+const layout = () => {
   return (
     <div>
         <Navbar/>
@@ -14,4 +14,4 @@ const Layout = () => {
   )
 }
 
-export default Layout
+export default layout
