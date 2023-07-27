@@ -21,3 +21,14 @@
         }
     }
 }
+
+
+///  RESPONSIVE
+
+@media screen and (max-width: 500px){
+    .ctn-header{
+        .ctn-img{
+            display: none;
+        }
+    }
+}

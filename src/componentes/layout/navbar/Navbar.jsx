@@ -8,7 +8,7 @@ const Navbar = () => {
     <>
       <>
         <header className="ctn-header">
-          <Link to="/"><img src="https://res.cloudinary.com/dnm34qgtv/image/upload/v1687361355/Audi-logo_oknkxz.png" alt="logo"/></Link>
+          <Link to="/"><img className="ctn-img" src="https://res.cloudinary.com/dnm34qgtv/image/upload/v1687361355/Audi-logo_oknkxz.png" alt="logo"/></Link>
           <ul className="ctn-categories">
             <Link to="/">Inicio</Link>
             <Link to="/category/deportivo">Deportivos</Link>

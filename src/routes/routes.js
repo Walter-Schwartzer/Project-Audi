@@ -2,7 +2,6 @@ import CartContainer from "../componentes/page/cartContainer/CartContainer";
 import ItemDetail from "../componentes/page/itemDetail/ItemDetail";
 import ItemListContainer from "../componentes/page/itemList/ItemListContainer";
 import CheckoutContainer from "../componentes/page/checkout/CheckoutContainer";
-import Dashboard from "../componentes/page/dashboard/Dashboard";
 
 export const routes = [
   {
@@ -24,11 +23,6 @@ export const routes = [
     id: "cart",
     path: "/cart",
     Element: CartContainer
-  },
-  {
-    id: "checkout",
-    path: "/checkout",
-    Element: CheckoutContainer
   },
   {
     id: "checkout",

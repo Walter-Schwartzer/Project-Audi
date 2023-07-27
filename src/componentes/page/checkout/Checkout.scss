@@ -1,9 +1,56 @@
-.btn-enviar{
+.ctn-recibo{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 300px;
+    font-size: 30px;
+    .btn-back-home{
+        border: 3px solid #000;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+.ctn-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .ctn-input{
+        border: 1px solid #000;
+        width: 360px;
+        height: 50px;
+        margin-bottom: 5px;
+    }
+    .btn-enviar{
     border: 1px solid #000;
     width: 360px;
     height: 50px;
     margin-bottom: 5px;
-    &:hover{
-        background-color: #c4c4c499;
+        &:hover{
+            background-color: #c4c4c499;
+        }
+    }
+}
+
+@media screen and (max-width: 800px){
+    .ctn-recibo{
+        font-size: 25px;
+        margin: 10px 40px;
+        .btn-back-home{
+            width: 250px;
+        }
+    }
+}
+
+@media screen and (max-width: 400px){
+    .ctn-form{
+        .ctn-input{
+            width: 320px;
+        }
+        .btn-enviar{
+            width: 320px;
+        }
     }
 }

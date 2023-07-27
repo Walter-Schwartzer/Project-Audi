@@ -29,4 +29,15 @@
 }
 .ctn-productCard .ctn-info .btn-more:hover {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 450px) {
+  .ctn-productCard {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .ctn-productCard {
+    width: 320px;
+  }
 }/*# sourceMappingURL=productCard.css.map */

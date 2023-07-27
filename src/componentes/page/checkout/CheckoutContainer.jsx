@@ -49,35 +49,35 @@ const CheckoutContainer = () => {
 
       {
         orderId ? (
-          <div style={{display:"flex", flexDirection:"column", margin:"10px 300px", fontSize:"30px"}}>
+          <div className="ctn-recibo">
             <h3>Gracias por su compra!</h3>
             <h4>Su orden de compra es {orderId}</h4>
-            <Link to="/" style={{border:"3px solid #000", width:"300px", cursor:"pointer", display:"flex", justifyContent:"center"}}>Volver a comprar</Link>
+            <Link to="/" className="btn-back-home">Volver a comprar</Link>
           </div>
           )
           :
           (
-            <form onSubmit={handleSubmit} style={{display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center"}}>
+            <form onSubmit={handleSubmit} className="ctn-form">
             <input
             type="text"
             placeholder="Ingrese su nombre"
             name="name"
             onChange={handleChange}
-            style={{border:"1px solid #000", width:"360px", height:"50px", marginBottom:"5px"}}
+            className="ctn-input"
             />
             <input
             type="number"
             placeholder="Ingrese su telefono"
             name="phone"
             onChange={handleChange}
-            style={{border:"1px solid #000", width:"360px", height:"50px", marginBottom:"5px"}}
+            className="ctn-input"
             />
             <input
             type="email"
             placeholder="Ingrese su email"
             name="email"
             onChange={handleChange}
-            style={{border:"1px solid #000", width:"360px", height:"50px", marginBottom:"5px"}}
+            className="ctn-input"
             />
             <button type="submit" className="btn-enviar">Comprar</button>
             </form>  

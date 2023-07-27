@@ -26,3 +26,143 @@
         }
     }
 }
+
+@media screen and (max-width: 1450px){
+    .ctn-item-detail{
+        .ctn-i-product{
+            right: 400px;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .ctn-item-detail{
+        .ctn-i-product{
+            right: 250px;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .ctn-item-detail{
+        img{
+            width: 400px;
+        }
+        .ctn-i-product{
+            right: 190px;
+        }
+    }
+}
+
+@media screen and (max-width: 850px){
+    .ctn-item-detail{
+        img{
+            width: 300px;
+        }
+        .ctn-i-product{
+            right: 150px;
+            h2{
+                font-size: 2rem;
+            }
+            h4{
+                font-size: 1.8rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 670px){
+    .ctn-item-detail{
+        padding: 0;
+        img{
+            width: 280px;
+        }
+        .ctn-i-product{
+            right: 100px;
+            h2{
+                font-size: 1.8rem;
+            }
+            h4{
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+    .ctn-item-detail{
+        img{
+            width: 250px;
+        }
+        .ctn-i-product{
+            right: 90px;
+            h2{
+                font-size: 1.6rem;
+            }
+            h4{
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 540px){
+    .ctn-item-detail{
+        img{
+            width: 250px;
+        }
+        .ctn-i-product{
+            right: 90px;
+            h2{
+                font-size: 1.6rem;
+            }
+            h4{
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 490px){
+    .ctn-item-detail{
+        img{
+            width: 220px;
+        }
+        .ctn-i-product{
+            right: 90px;
+            top: 170px;
+            h2{
+                font-size: 1.4rem;
+            }
+            h4{
+                font-size: 1.1rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 450px){
+    .ctn-item-detail{
+        margin: 0 10px;
+        img{
+            width: 220px;
+        }
+        .ctn-i-product{
+            right: 70px;
+            top: 170px;
+        }
+    }
+}
+
+@media screen and (max-width: 390px){
+    .ctn-item-detail{
+        margin: 0 10px;
+        img{
+            width: 220px;
+        }
+        .ctn-i-product{
+            right: 30px;
+            top: 170px;
+        }
+    }
+}

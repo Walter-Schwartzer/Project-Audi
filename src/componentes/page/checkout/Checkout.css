@@ -1,9 +1,52 @@
-.btn-enviar {
+.ctn-recibo {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 300px;
+  font-size: 30px;
+}
+.ctn-recibo .btn-back-home {
+  border: 3px solid #000;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.ctn-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ctn-form .ctn-input {
   border: 1px solid #000;
   width: 360px;
   height: 50px;
   margin-bottom: 5px;
 }
-.btn-enviar:hover {
+.ctn-form .btn-enviar {
+  border: 1px solid #000;
+  width: 360px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+.ctn-form .btn-enviar:hover {
   background-color: rgba(196, 196, 196, 0.6);
+}
+
+@media screen and (max-width: 800px) {
+  .ctn-recibo {
+    font-size: 25px;
+    margin: 10px 40px;
+  }
+  .ctn-recibo .btn-back-home {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .ctn-form .ctn-input {
+    width: 320px;
+  }
+  .ctn-form .btn-enviar {
+    width: 320px;
+  }
 }/*# sourceMappingURL=Checkout.css.map */

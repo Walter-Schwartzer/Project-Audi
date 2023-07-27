@@ -13,4 +13,26 @@
   right: 270px;
   position: absolute;
   display: block;
+}
+
+@media screen and (max-width: 1000px) {
+  .cantidadCarrito {
+    right: 120px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .cantidadCarrito {
+    right: 80px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cantidadCarrito {
+    right: 50px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .cantidadCarrito {
+    top: 20px;
+    right: 40px;
+  }
 }/*# sourceMappingURL=cart.css.map */
