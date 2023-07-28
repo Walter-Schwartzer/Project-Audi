@@ -3,6 +3,7 @@ import { CartContext } from "../../../context/CartContext";
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
 import "./CartContainer.css"
+import { PiTrash, PiCurrencyDollarThin } from 'react-icons/pi';
 
 const CartContainer = () => {
   const { cart, clearCart, deleteById, getTotalPrice } = useContext(CartContext);
@@ -46,10 +47,10 @@ const CartContainer = () => {
       <div style={{display:"flex", margin:"20px 10px", padding:"5px", justifyContent:"end"}} className="ctn-end-shop">
           
           {
-            cart.length > 0  && <button onClick={limpiar}>🚮</button>
+            cart.length > 0  && <button onClick={limpiar} style={{marginRight:"10px"}}><PiTrash/></button>
           }
           {
-            cart.length > 0 && <Link to="/checkout" style={{fontSize:"32px"}}>🛍️</Link>
+            cart.length > 0 && <Link to="/checkout" style={{fontSize:"32px"}}><PiCurrencyDollarThin/></Link>
           }
           
       </div>
