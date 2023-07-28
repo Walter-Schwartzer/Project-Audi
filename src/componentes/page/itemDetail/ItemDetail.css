@@ -134,10 +134,16 @@
     margin: 0 10px;
   }
   .ctn-item-detail img {
-    width: 220px;
+    width: 210px;
   }
   .ctn-item-detail .ctn-i-product {
-    right: 30px;
+    right: 20px;
     top: 170px;
+  }
+  .ctn-item-detail .ctn-i-product h2 {
+    font-size: 1.2rem;
+  }
+  .ctn-item-detail .ctn-i-product h4 {
+    font-size: 1rem;
   }
 }/*# sourceMappingURL=ItemDetail.css.map */

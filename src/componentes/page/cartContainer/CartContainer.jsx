@@ -32,7 +32,7 @@ const CartContainer = () => {
 
       {cart.map((elemento) => {
         return (
-          <div key={elemento.id} style={{ border: "2px solid black", display: "flex", gap: "393px", alignItems:"center", marginBottom:"15px" }}>
+          <div key={elemento.id} className="ctn-buy">
             <img src={elemento.img} style={{width:"170px", height:"100px"}}></img>
             <h4>{elemento.title}</h4>
             <h5>${elemento.price}</h5>

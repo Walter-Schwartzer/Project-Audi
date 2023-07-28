@@ -1,4 +1,21 @@
+.ctn-buy {
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
+
 .ctn-end-shop button {
   cursor: pointer;
   font-size: 32px;
+}
+
+@media screen and (max-width: 400px) {
+  .ctn-buy h4 {
+    font-size: 13px;
+  }
+  .ctn-buy h5 {
+    font-size: 13px;
+  }
 }/*# sourceMappingURL=CartContainer.css.map */

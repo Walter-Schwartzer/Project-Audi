@@ -1,0 +1,12 @@
+.ctn{
+    border: 2px solid steelblue;
+    padding: 40px;
+    display:flex;
+    gap: 20px;
+}
+
+@media screen and (max-width: 400px){
+    .ctn{
+        padding: 20px;
+    }
+}
